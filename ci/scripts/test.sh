@@ -1,5 +1,5 @@
 #!/bin/bash
-APP_DIR=${GOPATH}/src/github.com/dohernandez/concourse-tutorial
+APP_DIR=${GOPATH}/src/github.com/mandoz/concourse-tutorial
 
 mkdir -p ${APP_DIR}
 cp -r . ${APP_DIR}
