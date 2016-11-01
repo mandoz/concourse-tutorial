@@ -38,7 +38,7 @@ fmt:
 	@gofmt -s=true -w $(GO_PROJECT_FILES)
 
 # Tests the project
-fmt:
+test:
 	@ginkgo -r
 
 # Cleans our project: deletes binaries
