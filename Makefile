@@ -45,3 +45,6 @@ test:
 clean:
 	@echo "$(OK_COLOR)==> Cleaning project$(NO_COLOR)"
 	if [ -d ${DIR_OUT} ] ; then rm -f ${DIR_OUT}/* ; fi
+
+
+# just a comment for a silly commit
